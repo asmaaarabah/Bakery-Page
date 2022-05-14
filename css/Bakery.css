@@ -1,0 +1,303 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    text-align: center;
+  
+}
+
+.container-nav {
+    width: 100%;
+    padding: 8px 20px;
+    position: fixed;
+    box-sizing: border-box;
+    
+    
+}
+
+.container-nav img {
+    width: 10%;
+    float: left;
+}
+
+.container-nav ul {
+    float: right;
+    list-style: none;
+   z-index: 90;
+}
+
+.container-nav ul li {
+    float: left;
+    margin: 0px 15px;
+}
+
+.container-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.clr {
+    clear: both;
+}
+
+.container-cont {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.container-cont p {
+    font-family: Alegreya Sans, sans-serif, monospace;
+    font-size: 24px;
+    color: #ccc;
+}
+
+.container-cont h1 {
+    font-family: legreya, serif, monospace;
+    font-size: 70px;
+    color: #fff;
+}
+
+.container-cont .btn {
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+.container-cont .btn-brown {
+    background-color: #8e7754;
+    color: white;
+}
+.container-cont .btn-brown:hover{
+    background-color: white;
+    color: black;
+}
+
+.container-cont .btn-white {
+    background-color: rgba(0,0,0,0);
+    color: white;
+    
+}
+.container-cont .btn-white:hover{
+    background-color: white;
+    color: black;
+}
+
+.Who-we {
+    text-align: center;
+    margin: 0px 10px;
+    padding: 15px 20px 0px;
+}
+
+.who-we-pic {
+    float: left;
+    width: 49%;
+}
+
+.who-we-pic img {
+    width: 80%;
+}
+
+.who-we-p {
+    text-align: center;
+    float: right;
+    width: 49%;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    line-height: 1.86em;
+    font-size: 16px;
+    font-size: 16px;
+    color: #686868;
+    font-size: 16px;
+}
+
+.who-we-p h2 {
+    font-weight: bold;
+}
+
+.clr {
+    clear: both;
+}
+
+.location {
+    background-color: rgb(247, 243, 243);
+}
+
+.location-p {
+    width: 45%;
+    vertical-align: middle;
+    float: left;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 90px 25px;
+    text-align: center;
+    
+    color: #686868;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    line-height: 1.86em;
+}
+.location-p p{
+    width: 85%;
+    padding-left: 30px;
+}
+
+.location-pic {
+    width: 50%;
+    float: right;
+}
+
+.location-pic img {
+    width: 85%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.product-title {
+    text-align: center;
+}
+.product-title h2{ 
+    color: #303030;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 1.5em;
+
+
+    
+}
+.product-title p{
+    font-family: Alegreya Sans,sans-serif,monospace;
+    color: #686868;
+    margin-bottom: 20px;
+
+}
+ .product-item{
+  float: left;
+  width: 33%;
+     text-align: center;
+
+    
+    
+
+}
+.product-item h4{
+    font-family: Alegreya,serif,monospace;
+    font-weight: bold;
+}
+.product-item img{
+   
+ 
+    width: 85%;
+}
+.product-item p{
+    font-family: Alegreya Sans,sans-serif,monospace;
+    line-height: 1.86em;
+    color: #686868;
+}
+.contact{
+    background-color: rgb(247, 243, 243);
+}
+.contact-content{
+    text-align: center;
+    width: 50%;
+    float: left;
+    margin: 90px 25px;
+    
+}
+.contact-content h2{
+    font-weight: bold;
+    font-family:Alegreya,serif,monospace;
+    color: #303030;
+    margin-bottom: 30px;
+    
+
+}
+.contact-content p{
+    color:#686868;
+    line-height: 1.86em;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    width: 85%;
+    padding-left: 30px;
+    
+    
+
+    
+}
+.contact-ifram{
+    width: 45%;
+}
+
+.contact-ifram iframe{
+    width:80%;
+   
+   
+    margin: 40px 25px;
+   
+   
+   
+    float: right;
+}
+.footter{
+    background-color: #403d38;
+    height: 300px;
+    padding:30px 0;
+    text-align: center;
+}
+
+.footerimg{
+    width: 20%;
+padding: 50px 0 20px;
+margin: auto;
+box-sizing: border-box;
+text-align: center;
+}
+@media screen and (max-width:979px) and (min-width:768px){
+    .Who-we{padding: 0%;}
+   .who-we-pic,.who-we-p{width:100%}
+   body{background-color: red;}
+}
+@media screen and (max-width:767px) and (min-width:480px){
+    .who-we-pic,.who-we-p{width:100%}
+    body{background-color: red;}
+}
+@media screen and (max-width:479px){
+    .who-we-pic,.who-we-p{width:100%}
+    body{background-color: red;
+}
+
+}
+
+@media screen and (max-width:979px) and (min-width:768px){
+    .location-pic,.location-p{width:100%;text-align: center;}
+    .location-pic,.location-p{padding: 0%;}
+   
+    .location-p{margin: auto;}
+   
+ }
+ @media screen and (max-width:767px) and (min-width:480px){
+    .location-pic,.location-p{width:100%;text-align: center;}
+   
+    .location-p{margin: auto;}
+}
+@media screen and (max-width:479px) {
+    .location-pic,.location-p{width:100%;text-align: center;}
+    .location-pic{padding-left: 40px;padding-top: 0%;padding-bottom: 0%;}
+    
+    .location-p{margin: auto;}
+}
+
+@media screen and (max-width:979px) and (min-width:768px){
+    .cotact-ifram,.contact-content{width:100%;text-align: center;margin: auto;}
+    .cotact-ifram,.contact-content{padding: 0%;}
+   
+  
+  
+ }
+
+
